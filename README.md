@@ -24,6 +24,10 @@ The app will take in orders from customers and deplete stock from the store's in
 
   *bamazonSuppervisor.js lists a set of menu options for a suppervisor to View Product Sales by Department or Create New   
    Department.
+   
+  *bamazon database will get updated authomatically as supperviser creates new department.
+
+   
 # running app Screenshots:
   https://drive.google.com/drive/folders/1Lkf-0j_ofDYYcQGzi6yBXKCGILI0cPBS?usp=sharing
   
