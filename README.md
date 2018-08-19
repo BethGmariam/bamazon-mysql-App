@@ -11,7 +11,7 @@ The app will take in orders from customers and deplete stock from the store's in
 # Files:
   *bamazon.sql to create the main 'bamazon' database that stores all tables (products_table, deparments_table);
   
-  *bamazonCustomer.js lists available products for sale and prompts customer to buy a product based on itemId and Quantity.
+  *bamazonCustomer.js lists available products for sale and prompts customer to buy a product based on item Id and quantity.
   products table will get updated authomatically each time a customer purchases an item.
   
   *bamazonManager.js lists a set of menu options for a manager to (View Products for Sale, View Low Inventory,updates existing   Inventory, Add New Product).
