@@ -3,10 +3,11 @@ Amazon-like storefront with MySQL.
 The app will take in orders from customers and deplete stock from the store's inventory.
 
 # Requirements:
-
+  *mysql or MAMP/LAMP
+  
   *node.js to run the app.
   
-  *mysql-workbench, phpMyAdmin or using console to create database
+  *mysql-workbench, phpMyAdmin visual tools to create database/tables; or use command line interface/console
   
   *npm install to get all required node packages/modules (mysql, console.table, cli-table)
   
