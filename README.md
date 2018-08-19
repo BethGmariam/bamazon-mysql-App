@@ -11,11 +11,11 @@ Amazon-like storefront with MySQL.
   Running this application will list a set of menu options for a manager to:
   View Products for Sale, 
   View Low Inventory,
-  Add to Inventory (existing product say when stock_quantity is below certain value),
+  updates existing Inventory (adds stock_quantity say when it is below certain value),
   Add New Product.
   bamazon database will get updated authomatically as manager adds/updates products.
 # bamazonSuppervisor.js:
-  lists a set of menu options for a suppervisor to View Product Sales by Department,Create New Department.
+  lists a set of menu options for a suppervisor to View Product Sales by Department or Create New Department.
   
   
   
