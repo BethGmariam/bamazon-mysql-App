@@ -4,8 +4,10 @@ The app will take in orders from customers and deplete stock from the store's in
 
 # Requirements:
 
-  *node.js,
-  *mysql workbench,phpMyAdmin or using console
+  *node.js to run the app.
+  
+  *mysql-workbench, phpMyAdmin or using console to create database
+  
   *npm install to get all required node packages/modules (mysql,console.table, cli-table)
   
 # Files:
