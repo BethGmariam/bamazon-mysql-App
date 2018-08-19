@@ -4,7 +4,7 @@ The app will take in orders from customers and deplete stock from the store's in
 
 # Requirements:
 
-  -node.js, mysql
+  -node.js,mysql
   -npm install to get all required node packages/modules (mysql,console.table, cli-table)
 
 # bamazon.sql:
