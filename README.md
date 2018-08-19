@@ -29,7 +29,9 @@ The app will take in orders from customers and deplete stock from the store's in
    
 # Demonstration Audio/video links & screen shots :
   screenshot:https://drive.google.com/drive/folders/1Lkf-0j_ofDYYcQGzi6yBXKCGILI0cPBS?usp=sharing
+  
   Audio/video-customerJS:https://drive.google.com/file/d/1h9PcI9QUOeeCuwz1sjXrY_U2dPD9YimX/view
+  
   Audio/video-managerJS:https://drive.google.com/file/d/149pywRZlpDPO_15R9XOXz-g-2k7s9Fb_/view
  
 # Acknowledgement:
