@@ -15,6 +15,8 @@ The app will take in orders from customers and deplete stock from the store's in
   *bamazon.sql to create the main 'bamazon' database that stores all tables (products_table, deparments_table);
   
   *bamazonCustomer.js lists available products for sale and prompts customer to buy a product based on item Id and quantity.
+  
+  *table created using "add new product" option in bamazonManager.js file.
 
   **products table will get updated authomatically each time a customer purchases an item.
 
