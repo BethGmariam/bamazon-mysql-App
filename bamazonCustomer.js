@@ -29,12 +29,12 @@ connection.connect(function(err){
 
 // Read products function
 function displayProducts(){
-   connection.query("SELECT item_id, product_name, price FROM products", function(err,res){
+   connection.query("SELECT item_id, product_name, price FROM products WHERE item_id <=10", function(err,res){
      if(err) throw err;
      // display response using require(console.table) module; see above for required modules.
      var tableDisplayProducts = consoleTable.getTable(res);
      console.log(tableDisplayProducts);
-     ordersFunction();
+     setTimeout(ordersFunction, 1000) // run ordersFunction ONE second after displaying products
  })
 }
 

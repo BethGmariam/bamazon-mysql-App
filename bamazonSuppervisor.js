@@ -57,7 +57,7 @@ function suppervisorFunction() {
   }
 // case View Product Sales by Department
  function productSalesByDepartmentFn() {
-    var queryString = "SELECT departments.department_id,departments.Department_name,departments.over_head_costs,SUM(products.product_sales) AS product_sales,(departments.over_head_costs-SUM(products.product_sales)) AS total_profit FROM departments INNER JOIN products ON (departments.Department_name = products.department_name) GROUP BY departments.department_id";
+    var queryString = "SELECT departments.department_id,departments.department_name,departments.over_head_costs,SUM(products.product_sales) AS product_sales,(SUM(products.product_sales)-departments.over_head_costs) AS total_profit FROM departments INNER JOIN products ON (departments.department_name = products.department_name) GROUP BY departments.department_id";
 
     connection.query(queryString, function(err, res){
 
@@ -66,7 +66,7 @@ function suppervisorFunction() {
             colWidths: [20, 20, 20, 20,20]
         });
         for (var i = 0; i < res.length; i++) {
-            tableProductSales.push([res[i].department_id, res[i].Department_name,res[i].over_head_costs,res[i].product_sales,res[i].total_profit])
+            tableProductSales.push([res[i].department_id, res[i].department_name,res[i].over_head_costs,res[i].product_sales,res[i].total_profit])
         }
         console.log(tableProductSales.toString())
 
