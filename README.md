@@ -35,6 +35,8 @@ The app will take in orders from customers and deplete stock from the store's in
   Audio/video-customerJS:https://drive.google.com/file/d/10hvuCInLCuNAQY0N7Iuoq0eOk2biLKu1/view
   
   Audio/video-managerJS:https://drive.google.com/file/d/149pywRZlpDPO_15R9XOXz-g-2k7s9Fb_/view
+  
+  Audio/video-SuppervisorJS: https://drive.google.com/file/d/1zkZcbOCiaAwe1MTjc9pYw8x4NxbSOqB_/view
  
 # Acknowledgement:
   *Instructors and TAs at UofT Coding BootCamp
