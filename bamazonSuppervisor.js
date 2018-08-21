@@ -63,7 +63,7 @@ function suppervisorFunction() {
 
         var tableProductSales = new cliTable({
             head: ["Department_Id", 'Department_name', 'Overhead_cost ($)', 'Product_sales ($)','Total_profit ($)'],
-            colWidths: [20, 20, 20, 20,20]
+            colWidths: [20, 25, 20, 20,20]
         });
         for (var i = 0; i < res.length; i++) {
             tableProductSales.push([res[i].department_id, res[i].department_name,res[i].over_head_costs,res[i].product_sales,res[i].total_profit])
